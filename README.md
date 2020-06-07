@@ -3,12 +3,12 @@
 </p>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/fariasmateuss/ecoleta-booster">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/fariasmateuss/ecoleta">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/fariasmateuss/ecoleta-booster">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/fariasmateuss/ecoleta">
 
-  <a href="https://github.com/fariasmateuss/ecoleta-booster/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/fariasmateuss/ecoleta-booster">
+  <a href="https://github.com/fariasmateuss/ecoleta/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/fariasmateuss/ecoleta">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
@@ -67,7 +67,7 @@ To run this project in the development mode, you'll need to have a basic environ
 **Cloning the Repository**
 
 ```
-$ git clone https://github.com/fariasmateuss/ecoleta-booster.git
+$ git clone https://github.com/fariasmateuss/ecoleta.git
 ```
 
 ### Installing 
