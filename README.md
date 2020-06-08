@@ -76,6 +76,7 @@ $ git clone https://github.com/fariasmateuss/ecoleta.git
 
 - Run `npm install` in the `server` folder;
 - Run `npm run server` to up the server;
+- Open Insomnia or Postman and import the Insomnia.json workspace file at backend folder.
 
 **Front-End** 
 
