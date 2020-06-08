@@ -1,7 +1,7 @@
 import express from 'express';
 import { celebrate, Joi } from 'celebrate';
 
-import { validator } from './validators/PointsValidator';
+import Validator from './validators/PointsValidator';
 
 import multer from 'multer';
 import multerConfig from './config/multer';
@@ -24,7 +24,7 @@ routes.get('/points', pointsController.index);
 routes.post(
   '/points',
   upload.single('image'),
-  validator,
+  Validator,
   pointsController.create
 );
 

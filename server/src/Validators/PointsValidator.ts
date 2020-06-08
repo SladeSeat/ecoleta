@@ -1,6 +1,6 @@
 import { celebrate, Segments, Joi } from 'celebrate';
 
-const validator = celebrate(
+const Validator = celebrate(
   {
     [Segments.BODY]: Joi.object().keys({
       name: Joi.string().required(),
