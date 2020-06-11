@@ -3,15 +3,15 @@
 </p>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/fariasmateuss/ecoleta">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/fariasmateuss/ecoleta?color=%234cb79&style=flat-square">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/fariasmateuss/ecoleta">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/fariasmateuss/ecoleta?color=%234cb79&style=flat-square">
 
   <a href="https://github.com/fariasmateuss/ecoleta/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/fariasmateuss/ecoleta">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/fariasmateuss/ecoleta?color=%234cb79&style=flat-square">
   </a>
 
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=%234cb79&style=flat-square">
 </p>
  
 <img src=".github/web.png" align="center" />
@@ -40,6 +40,7 @@ Ecoleta is an application that aims to help people find places that collect spec
 - [Expo](https://expo.io) - Deploy and quickly iterate on native Android, iOS, and web apps
   - [Expo Font](https://docs.expo.io/versions/latest/sdk/font/) - Expo fonts
   - [Expo Location](https://docs.expo.io/versions/latest/sdk/location/) - Geolocation information from the device. 
+  - [Expo Vector Icons](https://github.com/expo/vector-icons) - Expo Vector Icons
   - [Expo Mail Composer](https://docs.expo.io/versions/latest/sdk/mail-composer/) - Compose and send mail 
 - [SQLite3](https://www.sqlite.org) - DB Connector
 - [Express](https://expressjs.com/) - Router of the Application
