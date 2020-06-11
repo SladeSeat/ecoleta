@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
     color: '#FFF',
     fontFamily: 'Roboto_500Medium',
     fontSize: 16,
-  },
+  }
 });
 
 export default styles;

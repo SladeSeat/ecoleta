@@ -85,22 +85,22 @@ const Points = () => {
           items: selectedItems,
         },
       })
-      .then((response) => {
+      .then(response => {
         setPoints(response.data);
       });
   }, [selectedItems]);
 
   useEffect(() => {
-    api.get('/items').then((response) => {
+    api.get('/items').then(response => {
       setItems(response.data);
     });
   }, []);
 
   function handleSelectItem(id: number) {
-    const alreadySelected = selectedItems.findIndex((item) => item === id);
+    const alreadySelected = selectedItems.findIndex(item => item === id);
 
     if (alreadySelected >= 0) {
-      const filteredItems = selectedItems.filter((item) => item !== id);
+      const filteredItems = selectedItems.filter(item => item !== id);
 
       setSelectedItems(filteredItems);
     } else {
@@ -140,7 +140,7 @@ const Points = () => {
                 longitudeDelta: 0.014,
               }}
             >
-              {points.map((point) => (
+              {points.map(point => (
                 <Marker
                   key={String(point.id)}
                   style={styles.mapMarker}
@@ -172,7 +172,7 @@ const Points = () => {
           showsHorizontalScrollIndicator={false}
           contentContainerStyle={{ paddingHorizontal: 20 }}
         >
-          {items.map((item) => (
+          {items.map(item => (
             <TouchableOpacity
               key={String(item.id)}
               style={[
