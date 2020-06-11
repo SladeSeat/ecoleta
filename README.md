@@ -26,37 +26,31 @@ Ecoleta is an application that aims to help people find places that collect spec
 
 <img src=".github/mobile.png" align="center" />
 
-## Tech
+## Built With
 
-- TypeScript
-- Node
-- React
-  - React Icons
-  - React Leaflet
-  - React Dom
-  - React Router Dom
-- React Native
-  - React Native Maps
-  - React Navigation
-  - React Native Gesture Handler
-  - React Native Reanimated
-  - React Native Safe Area Context
-  - React Native Screens
-  - React Native Svg
-  - React Native Web
-- Expo
-  - Expo Font
-  - Expo Location
-  - Expo Mail Composer
-- SQLite3
-- Join
-- Express
-- Knex
-- CORS
-- Axios
-- Multer 
-- ESlint
-- Prettier
+- [TypeScript](https://www.typescriptlang.org) - TypeScript is a superset of JavaScript that adds typing and some other features to the language.
+- [NodeJs](https://nodejs.org/en/) - Build the server
+- [ReactJs](https://reactjs.org) - A JavaScript library for building user interfaces
+  - [React Icons](https://react-icons.github.io/react-icons/) - Utilizes ES6 imports that allows you to include only the icons that your project is using.
+  - [React Leaflet Maps](https://react-leaflet.js.org) - React components Leaflet Maps
+- [React Native](https://reactnative.dev) - Native Development
+  - [React Native Maps](https://github.com/react-native-community/react-native-maps) - React Native Mapview component for iOS + Android
+  - [React Navigation](https://reactnavigation.org) - Routing and navigation
+  - [React Native Svg](https://github.com/react-native-community/react-native-svg) - SVG library for React Native, React Native Web, and plain React web projects.
+- [Expo](https://expo.io) - Deploy and quickly iterate on native Android, iOS, and web apps
+  - [Expo Font](https://docs.expo.io/versions/latest/sdk/font/) - Expo fonts
+  - [Expo Location](https://docs.expo.io/versions/latest/sdk/location/) - Geolocation information from the device. 
+  - [Expo Mail Composer](https://docs.expo.io/versions/latest/sdk/mail-composer/) - Compose and send mail 
+- [SQLite3](https://www.sqlite.org) - DB Connector
+- [Express](https://expressjs.com/) - Router of the Application
+- [KnexJs](http://knexjs.org) - SQL query builder for Postgres, MSSQL, MySQL, MariaDB, SQLite3, Oracle, and Amazon Redshift
+- [Celebrate](https://github.com/arb/celebrate) - A joi validation middleware for Express.
+- [CORS](https://www.npmjs.com/package/cors) - Cross-origin Resource Sharing
+- [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and NodeJs
+- [Multer](https://www.npmjs.com/package/multer) - Multer is a NodeJs middleware for file upload
+- [ESlint](https://eslint.org) - ESLint statically analyzes your code to quickly find problems. 
+- [Nodemon](https://nodemon.io/) - Process Manager used in the development
+- [Prettier](https://prettier.io/docs/en/cli.html) - An opinionated code formatter
 
 ## Development setup
 
@@ -70,7 +64,7 @@ To run this project in the development mode, you'll need to have a basic environ
 $ git clone https://github.com/fariasmateuss/ecoleta.git
 ```
 
-### Installing 
+### Getting Started
 
 **Back-End**
 
