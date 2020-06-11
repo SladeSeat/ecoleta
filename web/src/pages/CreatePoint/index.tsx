@@ -57,7 +57,7 @@ const CreatePoint = () => {
   const history = useHistory();
 
   useEffect(() => {
-    navigator.geolocation.getCurrentPosition((position) => {
+    navigator.geolocation.getCurrentPosition(position => {
       const { latitude, longitude } = position.coords;
 
       setInitialPosition([latitude, longitude]);
@@ -65,7 +65,7 @@ const CreatePoint = () => {
   }, []);
 
   useEffect(() => {
-    api.get('/items').then((response) => {
+    api.get('/items').then(response => {
       setItems(response.data);
     });
   }, []);
@@ -75,8 +75,8 @@ const CreatePoint = () => {
       .get<IBGEUFResponse[]>(
         'https://servicodados.ibge.gov.br/api/v1/localidades/estados'
       )
-      .then((response) => {
-        const ufInitials = response.data.map((uf) => uf.sigla);
+      .then(response => {
+        const ufInitials = response.data.map(uf => uf.sigla);
         setUfs(ufInitials);
       });
   }, []);
@@ -90,8 +90,8 @@ const CreatePoint = () => {
       .get<IBGECityResponse[]>(
         `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${selectedUf}/municipios`
       )
-      .then((response) => {
-        const cityNames = response.data.map((city) => city.nome);
+      .then(response => {
+        const cityNames = response.data.map(city => city.nome);
         setCities(cityNames);
       });
   }, [selectedUf]);
@@ -117,10 +117,10 @@ const CreatePoint = () => {
   }
 
   function handleSelectItem(id: number) {
-    const alreadySelected = selectedItems.findIndex((item) => item === id);
+    const alreadySelected = selectedItems.findIndex(item => item === id);
 
     if (alreadySelected >= 0) {
-      const filteredItems = selectedItems.filter((item) => item !== id);
+      const filteredItems = selectedItems.filter(item => item !== id);
 
       setSelectedItems(filteredItems);
     } else {
@@ -241,7 +241,7 @@ const CreatePoint = () => {
               >
                 <option value="0">Selecione uma UF</option>
 
-                {ufs.map((uf) => (
+                {ufs.map(uf => (
                   <option key={uf} value={uf}>
                     {uf}
                   </option>
@@ -259,7 +259,7 @@ const CreatePoint = () => {
               >
                 <option value="0">Selecione uma cidade</option>
 
-                {cities.map((city) => (
+                {cities.map(city => (
                   <option key={city} value={city}>
                     {city}
                   </option>
@@ -276,7 +276,7 @@ const CreatePoint = () => {
           </legend>
 
           <ul className="items-grid">
-            {items.map((item) => (
+            {items.map(item => (
               <li
                 key={item.id}
                 className={selectedItems.includes(item.id) ? 'selected' : ''}
