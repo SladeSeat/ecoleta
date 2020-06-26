@@ -61,7 +61,7 @@ const Points = () => {
       if (status !== 'granted') {
         Alert.alert(
           'Oops!',
-          'Precisamos da sua permissão para obter a localização'
+          'Precisamos da sua permissão para obter a localização',
         );
         return;
       }

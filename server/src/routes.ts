@@ -24,7 +24,7 @@ routes.post(
   '/points',
   upload.single('image'),
   validator,
-  pointsController.create
+  pointsController.create,
 );
 
 export default routes;
