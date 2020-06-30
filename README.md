@@ -39,9 +39,9 @@ Ecoleta is an application that aims to help people find places that collect spec
   - [React Native Svg](https://github.com/react-native-community/react-native-svg) - SVG library for React Native, React Native Web, and plain React web projects.
 - [Expo](https://expo.io) - Deploy and quickly iterate on native Android, iOS, and web apps
   - [Expo Font](https://docs.expo.io/versions/latest/sdk/font/) - Expo fonts
-  - [Expo Location](https://docs.expo.io/versions/latest/sdk/location/) - Geolocation information from the device. 
+  - [Expo Location](https://docs.expo.io/versions/latest/sdk/location/) - Geolocation information from the device.
   - [Expo Vector Icons](https://github.com/expo/vector-icons) - Expo Vector Icons
-  - [Expo Mail Composer](https://docs.expo.io/versions/latest/sdk/mail-composer/) - Compose and send mail 
+  - [Expo Mail Composer](https://docs.expo.io/versions/latest/sdk/mail-composer/) - Compose and send mail
 - [SQLite3](https://www.sqlite.org) - DB Connector
 - [Express](https://expressjs.com/) - Router of the Application
 - [KnexJs](http://knexjs.org) - SQL query builder for Postgres, MSSQL, MySQL, MariaDB, SQLite3, Oracle, and Amazon Redshift
@@ -49,7 +49,7 @@ Ecoleta is an application that aims to help people find places that collect spec
 - [CORS](https://www.npmjs.com/package/cors) - Cross-origin Resource Sharing
 - [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and NodeJs
 - [Multer](https://www.npmjs.com/package/multer) - Multer is a NodeJs middleware for file upload
-- [ESlint](https://eslint.org) - ESLint statically analyzes your code to quickly find problems. 
+- [ESlint](https://eslint.org) - ESLint statically analyzes your code to quickly find problems.
 - [Nodemon](https://nodemon.io/) - Process Manager used in the development
 - [Prettier](https://prettier.io/docs/en/cli.html) - An opinionated code formatter
 
@@ -57,7 +57,7 @@ Ecoleta is an application that aims to help people find places that collect spec
 
 ### Prerequisites
 
-To run this project in the development mode, you'll need to have a basic environment with NodeJs installed. 
+To run this project in the development mode, you'll need to have a basic environment with NodeJs installed.
 
 **Cloning the Repository**
 
@@ -73,20 +73,21 @@ $ git clone https://github.com/fariasmateuss/ecoleta.git
 - Run `npm run server` to up the server;
 - Open Insomnia or Postman and import the Insomnia.json workspace file at backend folder.
 
-**Front-End** 
+**Front-End**
 
 - Run `npm install` in the `web` folder;
 - Run `npm start` to up the project;
 
-**Mobile** 
+**Mobile**
 
 - Run `npm install` in the `mobile` folder
 - Update the baseURL at src/services/api.js.
 - Run `expo start` to up the project.
-  
+
 ## Contribution
 
-See the [contribution guide](CONTRIBUTING.md) for more details on how to contribute to this project.
+See the [contribution guide](/.github/CONTRIBUTING.md) for more details on how to contribute to this project.
 
 # License
+
 [MIT License](/LICENSE)
