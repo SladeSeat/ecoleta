@@ -4,6 +4,15 @@ First off, thanks for taking the time to contribute! 😄
 
 Contributions are handled in the form of Pull Requests. You fork this repository, create a new branch, make relevant changes, and submit a Pull Request – once that's done we'll be able to review your PRs and merge them to the master branch.
 
+## Propose an idea 💡
+
+Have an idea for a new our_package feature? Take a look at the [issue list][issues] to see if it isn't included or suggested yet. If not, suggest your idea as an [issue on GitHub][new_issue]. While we can't promise to implement your idea, it helps to:
+
+* Explain in detail how it would work.
+* Keep the scope as narrow as possible.
+
+See below if you want to contribute code for your idea as well.
+
 ## How to contribute
 
 #### Bugs in the documentation
