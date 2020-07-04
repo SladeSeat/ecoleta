@@ -59,26 +59,26 @@ Ecoleta is an application that aims to help people find places that collect spec
 
 To run this project in the development mode, you'll need to have a basic environment with NodeJs installed.
 
-**Cloning the Repository**
+#### Cloning the Repository
 
 ```
-$ git clone https://github.com/fariasmateuss/ecoleta.git
+ git clone https://github.com/fariasmateuss/ecoleta.git
 ```
 
 ### Getting Started
 
-**Back-End**
+#### Back-End
 
 - Run `npm install` in the `server` folder;
 - Run `npm run server` to up the server;
 - Open Insomnia or Postman and import the Insomnia.json workspace file at backend folder.
 
-**Front-End**
+#### Front-End
 
 - Run `npm install` in the `web` folder;
 - Run `npm start` to up the project;
 
-**Mobile**
+#### Mobile
 
 - Run `npm install` in the `mobile` folder
 - Update the baseURL at src/services/api.js.
