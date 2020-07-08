@@ -14,7 +14,7 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=%234cb79&style=flat-square">
 </p>
  
-<img src=".github/web.png" align="center" />
+<img src=".github/thumbnail.png" align="center" />
 
 ## About this Project
 
@@ -23,8 +23,6 @@ App waste collection marketplace built with Restful API in NodeJs, TypeScript, R
 ## Why?
 
 Ecoleta is an application that aims to help people find places that collect specific types of waste, encouraging people to recycle more.
-
-<img src=".github/mobile.png" align="center" />
 
 ## Built With
 
