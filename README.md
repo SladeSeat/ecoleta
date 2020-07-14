@@ -67,20 +67,25 @@ To run this project in the development mode, you'll need to have a basic environ
 
 #### Back-End
 
-- Run `npm install` in the `server` folder;
-- Run `npm run server` to up the server;
-- Open Insomnia or Postman and import the Insomnia.json workspace file at backend folder.
+Run `npm install` in the `server` folder;
+
+Run `npm run server` to up the server;
+
+Open Insomnia or Postman and import the Insomnia.json workspace file at backend folder.
 
 #### Front-End
 
-- Run `npm install` in the `web` folder;
-- Run `npm start` to up the project;
+Run `npm install` in the `web` folder;
+
+Run `npm start` to up the project;
 
 #### Mobile
 
-- Run `npm install` in the `mobile` folder
-- Update the baseURL at src/services/api.js.
-- Run `expo start` to up the project.
+Run `npm install` in the `mobile` folder
+
+Update the baseURL at src/services/api.js.
+
+Run `expo start` to up the project.
 
 ## Contribution
 
